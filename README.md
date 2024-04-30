@@ -8,7 +8,9 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
 - **Translation**: Translate the extracted text into one of 11 languages: English, Spanish, French, German, Italian, Chinese, Portuguese, Russian, Japanese, Hindi, and Arabic.
 - **Camera Integration**: Use the built-in camera to take photos and save them to the gallery for OCR.
 
-![My Image](https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/Camera.png "Camera")
+<p align="center">
+  <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/Camera.png" alt="Camera" width="200"/>
+</p>
 
 
 ## Getting Started
