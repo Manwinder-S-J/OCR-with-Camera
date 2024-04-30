@@ -8,6 +8,7 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
 - **Translation**: Translate the extracted text into one of 11 languages: English, Spanish, French, German, Italian, Chinese, Portuguese, Russian, Japanese, Hindi, and Arabic.
 - **Camera Integration**: Use the built-in camera to take photos and save them to the gallery for OCR.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -28,7 +29,7 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
     npm install
     ```
 3. Setup API Keys</br>
-    Create .env file in the root directory and add this line in it with your google apl key:
+    Create .env file in the root directory and add this line in it with your google api key:
     ```bash
     GOOGLE_API_KEY=yourApiKey
     ```
