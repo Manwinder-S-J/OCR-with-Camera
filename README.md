@@ -1,5 +1,3 @@
-# Work in progress
-
 # OCR-with-Camera
 
 This app leverages the Google Vision API to perform Optical Character Recognition (OCR) and the Google Translation API to translate text into 11 different languages. It also features a built-in camera that allows users to take photos and save them directly to their device's gallery.
@@ -13,12 +11,32 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
 ## Getting Started
 
 ### Prerequisites
-
+- Node.js
+- npm or Yarn
+- Expo CLI
+- Google api key, enabled for Google Vision and Translation
 
 ### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Manwinder-S-J/OCR-with-Camera.git
+    cd .\\OCR-with-Camera\\OCRwithCamera\
+    ```
 
-### Setup API keys
-
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+3. Setup API Keys
+- create .env file in the root directory and add this line in it with your google apl key:
+    ```bash
+    GOOGLE_API_KEY=yourApiKey
+    ```
+4. Run Expo
+    ```bash
+    npx expo start
+    ```
+    On your device use the Expo Go App to scan the QR code generated in the terminal to run the app(Remember to be on the same network!!)
 
 ## Usage
 

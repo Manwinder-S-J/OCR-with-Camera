@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
         textAlign: 'center'
     },
       buttonOCR: {
-        backgroundColor: '#47477b',
+        backgroundColor: 'darkblue',
         color: '#fff',
         justifyContent: 'center',
         alignItems: 'center',
@@ -52,10 +52,11 @@ export const styles = StyleSheet.create({
     },
     row: {
           flexDirection: 'row',
-          justifyContent: 'space-around', // This spreads out the buttons across the container
-          width: '100%', // Ensure the container uses full width to space out the buttons
+          justifyContent: 'space-around', 
+          width: '100%', 
           marginTop: 5,
     },
+
     // Camera Styling
     container: {
         flex: 1,
