@@ -1,4 +1,6 @@
-const API_KEY = ''; // insert your API key here
+import Constants from 'expo-constants';
+
+const API_KEY = Constants.expoConfig.extra.googleApiKey;
 
 export const translateText = async (text, targetLang = 'en') => {
     const translationUrl = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;

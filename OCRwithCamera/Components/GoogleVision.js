@@ -1,9 +1,10 @@
-const API_KEY = ''; // insert your API key here
+import Constants from 'expo-constants';
+
+const API_KEY = Constants.expoConfig.extra.googleApiKey;
 const API_URL = `https://vision.googleapis.com/v1/images:annotate?key=${API_KEY}`;
 
-// Also try DOCUMENT_TEXT_DETECTION instead of TEXT_DETECTION as per https://cloud.google.com/vision/docs/ocr
+
 function generateBody(image) {
-    // Log the image length to confirm we have data
     console.log(image ? "Image data is present" : "Image data is missing");
     console.log("Image length:", image.length);
   
@@ -15,15 +16,14 @@ function generateBody(image) {
           },
           features: [
             {
-              type: 'DOCUMENT_TEXT_DETECTION', // Start with a simple request
-              maxResults: 10, // Lower maxResults to a more typical number
+              type: 'DOCUMENT_TEXT_DETECTION', 
+              maxResults: 10, 
             },
           ],
         },
       ],
     };
   
-    // Log the full body to inspect before sending
     console.log("Request Body:", JSON.stringify(body));
     return body;
   }
