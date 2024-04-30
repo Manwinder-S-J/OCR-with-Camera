@@ -20,7 +20,7 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
 1. Clone the repository:
     ```bash
     git clone https://github.com/Manwinder-S-J/OCR-with-Camera.git
-    cd .\\OCR-with-Camera\\OCRwithCamera\
+    cd .\OCR-with-Camera\OCRwithCamera\
     ```
 
 2. Install the dependencies:
