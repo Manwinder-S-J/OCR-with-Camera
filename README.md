@@ -9,8 +9,8 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
 - **Camera Integration**: Use the built-in camera to take photos and save them to the gallery for OCR.
 
 <p align="center">
-    <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/CropImageText.png" alt="CropImageText" width="200" />&nbsp;&nbsp;
-    <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/OcrOutput.png" alt="OcrOutput" width="200" />&nbsp;&nbsp;
+    <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/CropImageText.png" alt="CropImageText" width="200" />&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/OcrOutput.png" alt="OcrOutput" width="200" />&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/Manwinder-S-J/OCR-with-Camera/blob/main/images/Camera.png" alt="Camera" width="200" />
 </p>
 
