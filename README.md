@@ -28,7 +28,7 @@ This app leverages the Google Vision API to perform Optical Character Recognitio
     npm install
     ```
 3. Setup API Keys
-- create .env file in the root directory and add this line in it with your google apl key:
+    Create .env file in the root directory and add this line in it with your google apl key:
     ```bash
     GOOGLE_API_KEY=yourApiKey
     ```
