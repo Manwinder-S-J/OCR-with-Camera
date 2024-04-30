@@ -2,6 +2,60 @@ import { StyleSheet } from "react-native";
 import Constants from 'expo-constants';
 
 export const styles = StyleSheet.create({
+    // OCR styling
+    screen: {
+        alignItems: 'center',
+        padding: 20,
+        backgroundColor: 'white',
+        flexGrow: 1,
+    },
+      title: {
+        fontSize: 30,
+        marginVertical: 40,
+        fontWeight: '400',
+        marginTop:30,
+    },
+      subtitle: {
+        fontSize: 20,
+        marginVertical: 15,
+        textAlign: 'center'
+    },
+      languagetitle: {
+        fontSize: 30,
+        marginVertical: 10,
+        textAlign: 'center'
+    },
+      buttonOCR: {
+        backgroundColor: '#47477b',
+        color: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingVertical: 18,
+        paddingHorizontal: 40,
+        borderRadius: 10,
+        marginTop: 20,
+        
+    },
+    buttonReset: {
+          backgroundColor: '#E3242B',
+          color: '#fff',
+          justifyContent: 'center',
+          alignItems: 'center',
+          paddingVertical: 20,
+          paddingHorizontal: 40,
+          borderRadius: 10,
+          marginTop: 20,
+    },
+    buttonText: {
+        color: '#fff',
+        fontWeight: 'bold',
+    },
+    row: {
+          flexDirection: 'row',
+          justifyContent: 'space-around', // This spreads out the buttons across the container
+          width: '100%', // Ensure the container uses full width to space out the buttons
+          marginTop: 5,
+    },
     // Camera Styling
     container: {
         flex: 1,
